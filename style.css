@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+nav .logo {
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main layout */
+main {
+    display: flex;
+    height: calc(100vh - 60px);
+}
+
+/* Left panel */
+.left-panel {
+    width: 30%;
+    background: #f4f4f4;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    overflow-y: auto;
+}
+
+.profile-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.profile-item:hover {
+    background: #ddd;
+}
+
+.profile-item i {
+    font-size: 30px;
+    margin-right: 10px;
+    color: #555;
+}
+
+.profile-item p {
+    margin: 0;
+}
+
+/* Right panel */
+.right-panel {
+    width: 70%;
+    padding: 20px;
+}
+
+.right-panel img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.call-btn {
+    background-color: green;
+    color: white;
+}
+
+.msg-btn {
+    background-color: blue;
+    color: white;
+}
+.profile-photo {
+    width: calc(100%); 
+    margin: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+#profile-details {
+    text-align: center;
+    padding: 10px;
+  
+}
+
+
+#profile-details p {
+    margin: 8px 0;
+}
+.call-btn, .msg-btn {
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.call-btn {
+    background-color: green;
+    color: white;
+}
+.msg-btn {
+    background-color: blue;
+    color: white;
+}
